@@ -24,6 +24,7 @@ img {
   justify-content: center;
   z-index: 100;
   transition: .3s;
+  background-color: #2B2B2B;
 }
 .hide {
   opacity: 0;
@@ -239,4 +240,8 @@ main {
     margin: 0;
   }
 }
-
+@media (max-width: 280px) {
+  main .content .content-wrapper .content-desc .content-avatar {
+    display: none;
+  }
+}
