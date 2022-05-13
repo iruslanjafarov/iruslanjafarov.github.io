@@ -1,1 +1,0 @@
-$((function(){var e=document.title,t=["|"],r=0,d=0;window.setInterval((function(){var o=e.substring(0,d);d>e.length&&(r=0,d=0),r>1&&(d++,r=0),document.title=o+t[0],r++}),150)}));let preloader=document.querySelector(".preloader");window.addEventListener("load",(()=>{preloader.classList.add("hide"),setTimeout((()=>{preloader.remove()}),300)}));
