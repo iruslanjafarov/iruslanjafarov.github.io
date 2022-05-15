@@ -25,17 +25,10 @@ window.addEventListener('load', () => {
         preloader.remove()
     }, 300);
 })
-document.onkeydown = function(e) {
-    if(event.keyCode == 123) {
-    return false;
-    }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
-    return false;
-    }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
-    return false;
-    }
-    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
-    return false;
-    }
-}
+tippy('#verified', {
+    placement: 'right',
+    animation: 'shift-toward',
+    content: 'Verified',
+    followCursor: true,
+    theme: 'translucent',
+});
