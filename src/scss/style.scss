@@ -182,7 +182,8 @@ body {
       }
     }
     .links {
-      margin-top: 30px;
+      margin: 30px 0px;
+      pointer-events: none;
       .links-container {
         .link-block {
           display: flex;

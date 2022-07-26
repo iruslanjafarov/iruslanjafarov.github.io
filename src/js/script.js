@@ -25,6 +25,10 @@ window.addEventListener('load', () => {
         preloader.remove()
     }, 300);
 })
+const links = document.querySelector(".links")
+setTimeout(() => {
+    links.style.pointerEvents = "all"
+}, 1550);
 tippy('#verified', {
     placement: 'right',
     animation: 'shift-toward',
@@ -32,3 +36,6 @@ tippy('#verified', {
     followCursor: true,
     theme: 'translucent',
 });
+ScrollReveal().reveal('.header', {delay: 500});
+ScrollReveal().reveal('.information', {delay: 1000});
+ScrollReveal().reveal('.links', {delay: 1500});
