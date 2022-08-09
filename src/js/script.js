@@ -36,6 +36,6 @@ tippy('#verified', {
     followCursor: true,
     theme: 'translucent',
 });
-ScrollReveal().reveal('.header', {delay: 500});
-ScrollReveal().reveal('.information', {delay: 1000});
-ScrollReveal().reveal('.links', {delay: 1500});
+ScrollReveal().reveal('.header', {delay: 500, origin: 'top', distance: '20%'});
+ScrollReveal().reveal('.information', {delay: 1000, origin: 'bottom', distance: '20%'});
+ScrollReveal().reveal('.links', {delay: 1500, origin: 'top', distance: '20%'});
