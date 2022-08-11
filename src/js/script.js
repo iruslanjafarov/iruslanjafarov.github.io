@@ -1,4 +1,3 @@
-console.log("Выйди отсюда, тебе здесь не рады")
 $(function() {
     var title = document.title,
       animSeq = ["|"],
