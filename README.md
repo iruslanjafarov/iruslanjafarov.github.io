@@ -3,12 +3,16 @@
 ### Description
 
 * Personal project
-* Working with JavaScript
 * Working with HTML and SCSS
+* Working with JavaScript
 * Mobile adaptive
+* BEM
 
 ### Stack
 
+* HTML
+* SCSS
+* JavaScript
 * Vite
 
 ### GitHub Pages
