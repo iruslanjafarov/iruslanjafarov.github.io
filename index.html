@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Ruslan Jafarov">
+    <meta name="description" content="Just my wonderful site">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="152x152" href="./assets/apple-touch-icon.b0438775.png">
     <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,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">
@@ -11,11 +14,10 @@
     <link rel="mask-icon" href="./assets/safari-pinned-tab.1e58f30e.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    
     <title>Ruslan Jafarov</title>
-  <script type="module" crossorigin src="./assets/index.0c2dd5f4.js"></script>
-  <link rel="stylesheet" href="./assets/fullpage.min.css">
-  <link rel="stylesheet" href="./assets/index.6744f3d3.css">
+    <script type="module" crossorigin src="./assets/index.0c2dd5f4.js"></script>
+    <link rel="stylesheet" href="./assets/fullpage.min.css">
+    <link rel="stylesheet" href="./assets/index.6744f3d3.css">
 </head>
 <body>
     <div class="preloader">
