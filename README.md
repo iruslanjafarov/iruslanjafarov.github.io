@@ -17,4 +17,4 @@
 
 ### GitHub Pages
 
-* https://ruseykoo.github.io
+* https://ruslanjafarov.github.io
