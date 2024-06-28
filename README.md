@@ -17,4 +17,4 @@
 
 ### GitHub Pages
 
-* https://ruslanjafarov.github.io
+* https://iruslanjafarov.github.io
